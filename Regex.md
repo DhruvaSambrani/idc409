@@ -16,7 +16,7 @@ Syntax used is - `s/regextomatch/regextoreplace/`
 - Palindrome of length 4 - `s/(\w)(\w)(\w)(\w)\4\3\2\1`
 - Palindrome of arbitrarily large length - Impossible without lookbacks, see pumping lemma for finite state automatons - [idc621](https://sejdm.github.io/idc621)
 - Email id - `s/^([[:alnum:]]|\.)*@[[:alpha:]]+?(\.[[:alpha:]]+)+$`
-    - `([[:alnum:]]|\.)+` matches alphanum or `.` 1 or more times
+    - `([[:alnum:]]|\.|_)+` matches alphanum or `.` or `_` 1 or more times
         - `[[:alnum:]]` matches all alpha and num
         - `|` is OR
     - `[[:alpha:]]+?` matches only alphabet 1 or more times, but non-greedily
