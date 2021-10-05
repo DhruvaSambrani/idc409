@@ -3,3 +3,4 @@
 
 - [Regex](Regex)
 - [Huffman Coding](Huffman Coding)
+- [Text Analysis](Text Analysis)
