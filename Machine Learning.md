@@ -54,3 +54,31 @@ Is this always possible?
 
 
 
+# Confusion matrix
+
+**!!!!!!! IMPORTANT**
+
+| TP  | FN  |
+| --- | --- |
+| FP  | TN  |
+
+Accuracy = $\frac{T}{Total}$
+
+Precision = $\frac{TP}{P}$
+
+Recall = $\frac{TP}{T}$
+
+Specificity = $\frac{TN}{N}$
+
+FPR = $\frac{FP}{F}$
+
+TPR = $\frac{TP}{T}$
+
+FDR = $\frac{FP}{P}$
+
+# Decision Tree
+
+- Bisect the space and find accuracy of classification
+- Keep bisecting until node has no inaccurate cells
+- OR Information Gain - $H(I) = H(A)+H(B)$ where H is entropy(?)
+- OR wait until error in limit
