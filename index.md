@@ -8,5 +8,4 @@
 - [Huffman Coding](Huffman Coding)
 - [Data Distribution and Statistics](Data Distribution and Statistics)
 - [Perceptron Learning](Perceptron Learning)
-- [README](README)
 - [Text Analysis](Text Analysis)
