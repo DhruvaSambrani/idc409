@@ -4,11 +4,11 @@ Frequency  of words give a sense of which words are key words for summarizing th
 
 then, 
 
-$$f_{i,j} = \frac{n_{i,j}}{\sum_k n_{k, i, j}}$$
+$f_{i,j} = \frac{n_{i,j}}{\sum_k n_{k, i, j}}$
 
 But often, some words are over represented in a particular paper, but is NOT a key word. Hence, it is also important to multiply it with 
 
-$$\log\left(\frac{\text{\# documents which have that word}{\text{\# documents}}}\right)$$
+$\log\left(\frac{\text{\# documents which have that word}{\text{\# documents}}}\right)$
 
 ## Co-occurrance 
 

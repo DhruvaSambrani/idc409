@@ -43,9 +43,9 @@ Linear Discriminant Analysis
 
 Finding the subspace of data such that in-class variance is minimized and distance of class is minimised
 
-Maximize $$\frac{M_1-M_2}{\sigma_1 +\sigma_2}$$
+Maximize $\frac{M_1-M_2}{\sigma_1 +\sigma_2}$
 
-$$S_w = \frac{[cov_a] + [cov_b]}{2}$$
+$S_w = \frac{[cov_a] + [cov_b]}{2}$
 
 $S_b = S_t - S_w$ 
 

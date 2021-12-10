@@ -14,11 +14,11 @@ Bias in past learning data leads to future predictions which reinforce the biase
 
 Word Embedding example -
 
-$$\vec{king} - \vec{man} + \vec{woman} = \vec{Queen}$$
+$\vec{king} - \vec{man} + \vec{woman} = \vec{Queen}$
 
 Similarly,
 
-$$\vec{man} - \vec{woman} = \vec{comp prog} - \vec{homemaker}$$
+$\vec{man} - \vec{woman} = \vec{comp prog} - \vec{homemaker}$
 
 ## Model Drift
 
